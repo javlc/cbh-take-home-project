@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+To make it more clean, I've used coercion in ternary expressions in order to eliminate conditional statement code blocks, and created a helper function to eliminate the repeated call to the crypto functions execution. I added some comments to the helper function in order to make it more understandable. I added a couple extra ternary expressions in order to avoid the nesting pyramid on the first one and thus make it more readable.
